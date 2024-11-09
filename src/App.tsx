@@ -1,28 +1,28 @@
-import React from 'react';
-import { Github, Linkedin, Mail, ExternalLink, Code2, Palette, Rocket, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, Code2, Palette, Rocket, ChevronDown } from 'lucide-react';
 import ProjectCard from './components/ProjectCard';
 import SkillBadge from './components/SkillBadge';
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-neutral-900 text-white">
       {/* Hero Section */}
       <header className="min-h-screen flex flex-col items-center justify-center relative px-4">
-        <div className="max-w-4xl mx-auto text-center space-y-6">
-          <h1 className="text-5xl md:text-7xl text-[#be1e2d] animate-fade-in">
+        <div className="max-w-4xl mx-auto text-center">
+          <img src="public/raven.svg" alt="Raven Logo" className="w-32 h-32 right-12 relative mx-auto animate-fade-in"/>
+          <h1 className="text-5xl md:text-6xl font-heading text-white animate-fade-in">
             Chris Roselli
           </h1>
-          <p className="text-xl md:text-2xl text-gray-300 animate-fade-in-delay">
+          <p className="text-xl md:text-2xl text-gray-300 my-6 animate-fade-in-delay">
             Frontend Web Developer & UI/UX Enthusiast
           </p>
           <div className="flex gap-4 justify-center animate-fade-in-delay-2">
-            <a href="https://github.com/chrisroselli" className="hover:text-blue-400 transition-colors" target="_blank">
+            <a href="https://github.com/chrisroselli" className="hover:text-[#be1e2d] transition-colors" target="_blank">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/chris-roselli-webdev" className="hover:text-blue-400 transition-colors" target="_blank">
+            <a href="https://www.linkedin.com/in/chris-roselli-webdev" className="hover:text-[#be1e2d] transition-colors" target="_blank">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:chrisroselli@gmail.com" className="hover:text-blue-400 transition-colors">
+            <a href="mailto:chrisroselli@gmail.com" className="hover:text-[#be1e2d] transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>
@@ -36,7 +36,7 @@ function App() {
       <section className="py-20 px-4" id="about">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 flex items-center gap-2">
-            <Code2 className="w-8 h-8 text-blue-400" />
+            <Code2 className="w-8 h-8 text-[#be1e2d]" />
             About Me
           </h2>
           <div className="bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm">
@@ -52,7 +52,7 @@ function App() {
       <section className="py-20 px-4 bg-gray-800/30">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 flex items-center gap-2">
-            <Palette className="w-8 h-8 text-blue-400" />
+            <Palette className="w-8 h-8 text-[#be1e2d]" />
             Skills
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -63,9 +63,11 @@ function App() {
             <SkillBadge name="Next.js" level={60} />
             <SkillBadge name="TypeScript" level={40} />
             <SkillBadge name="Tailwind CSS" level={85} />
-            <SkillBadge name="Git" level={25} />
+            <SkillBadge name="Git" level={30} />
+            <SkillBadge name="Webstorm" level={75} />
+            <SkillBadge name="Neovim" level={60} />
+            <SkillBadge name="UI/UX" level={75} />
             <SkillBadge name="Node.js" level={20} />
-            <SkillBadge name="UI/UX" level={80} />
           </div>
         </div>
       </section>
@@ -74,7 +76,7 @@ function App() {
       <section className="py-20 px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 flex items-center gap-2">
-            <Rocket className="w-8 h-8 text-blue-400" />
+            <Rocket className="w-8 h-8 text-[#be1e2d]" />
             Featured Projects
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -111,7 +113,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-4 bg-gray-900">
+      <footer className="py-8 px-4 bg-gray-800/30">
         <div className="max-w-4xl mx-auto text-center text-gray-400">
           <p>Chris Roselli | Frontend Web Developer & UI/UX Enthusiast</p>
         </div>

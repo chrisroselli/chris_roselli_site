@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: "Fira Code", monospace;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

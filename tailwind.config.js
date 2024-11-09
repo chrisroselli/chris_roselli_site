@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Prompt', 'sans-serif'],
+        heading: ['Cairo Play', 'sans-serif']
       },
     },
   },
