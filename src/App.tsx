@@ -5,24 +5,24 @@ import SkillBadge from './components/SkillBadge';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white">
+    <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
       <header className="min-h-screen flex flex-col items-center justify-center relative px-4">
         <div className="max-w-4xl mx-auto text-center space-y-6">
-          <h1 className="text-5xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400 animate-fade-in">
-            John Developer
+          <h1 className="text-5xl md:text-7xl text-[#be1e2d] animate-fade-in">
+            Chris Roselli
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 animate-fade-in-delay">
-            Frontend Developer & UI/UX Enthusiast
+            Frontend Web Developer & UI/UX Enthusiast
           </p>
           <div className="flex gap-4 justify-center animate-fade-in-delay-2">
-            <a href="https://github.com" className="hover:text-blue-400 transition-colors">
+            <a href="https://github.com/chrisroselli" className="hover:text-blue-400 transition-colors" target="_blank">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://linkedin.com" className="hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/chris-roselli-webdev" className="hover:text-blue-400 transition-colors" target="_blank">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:john@example.com" className="hover:text-blue-400 transition-colors">
+            <a href="mailto:chrisroselli@gmail.com" className="hover:text-blue-400 transition-colors">
               <Mail className="w-6 h-6" />
             </a>
           </div>
@@ -41,8 +41,8 @@ function App() {
           </h2>
           <div className="bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm a passionate frontend developer with 5 years of experience crafting beautiful and functional web experiences. 
-              I specialize in React, TypeScript, and modern CSS frameworks, with a keen eye for design and user experience.
+              Accomplished Front-End Web Developer with over 9 years of experience specializing in front-end development and team development. Currently working at Contractor Nation, where I help manage and maintain a portfolio of 500+ national lead-generating web properties. Expertise in modern JavaScript libraries/frameworks including React.js, Next.js, Vite, TypeScript. Backed with a strong foundation in HTML5, CSS3, and vanilla JS. Easily excited by UI/UX design and user experience. Always eager to learn and grow.
+
             </p>
           </div>
         </div>
@@ -56,14 +56,16 @@ function App() {
             Skills
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <SkillBadge name="React" level={90} />
-            <SkillBadge name="TypeScript" level={85} />
-            <SkillBadge name="Tailwind CSS" level={95} />
-            <SkillBadge name="Next.js" level={80} />
-            <SkillBadge name="Node.js" level={75} />
-            <SkillBadge name="GraphQL" level={70} />
-            <SkillBadge name="Git" level={85} />
-            <SkillBadge name="UI/UX" level={88} />
+            <SkillBadge name="HTML" level={99} />
+            <SkillBadge name="CSS" level={85} />
+            <SkillBadge name="JavaScript" level={65} />
+            <SkillBadge name="React" level={60} />
+            <SkillBadge name="Next.js" level={60} />
+            <SkillBadge name="TypeScript" level={40} />
+            <SkillBadge name="Tailwind CSS" level={85} />
+            <SkillBadge name="Git" level={25} />
+            <SkillBadge name="Node.js" level={20} />
+            <SkillBadge name="UI/UX" level={80} />
           </div>
         </div>
       </section>
@@ -111,7 +113,7 @@ function App() {
       {/* Footer */}
       <footer className="py-8 px-4 bg-gray-900">
         <div className="max-w-4xl mx-auto text-center text-gray-400">
-          <p>© 2024 John Developer. All rights reserved.</p>
+          <p>Chris Roselli | Frontend Web Developer & UI/UX Enthusiast</p>
         </div>
       </footer>
     </div>
