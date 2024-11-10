@@ -8,7 +8,7 @@ function App() {
       {/* Hero Section */}
       <header className="min-h-screen flex flex-col items-center justify-center relative px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <img src="../public/images/raven.svg" alt="Raven Logo" className="w-32 h-32 right-12 relative mx-auto animate-fade-in"/>
+          <img src="images/raven.svg" alt="Raven Logo" className="w-32 h-32 right-12 relative mx-auto animate-fade-in"/>
           <h1 className="text-5xl md:text-6xl font-heading text-white animate-fade-in">
             Chris Roselli
           </h1>
@@ -83,7 +83,7 @@ function App() {
             <ProjectCard
               title="Larry Janesky"
               description="Entrepreneurial business website"
-              image="../public/images/lj-site.jpg"
+              image="images/lj-site.jpg"
               tags={['React', 'Next.js', 'TypeScript', 'Tailwind']}
               link="https://larry-janesky-site.vercel.app"
             />
