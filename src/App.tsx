@@ -41,7 +41,7 @@ function App() {
           </h2>
           <div className="bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm">
             <p className="text-lg text-gray-300 leading-relaxed">
-              Accomplished Front-End Web Developer with over 9 years of experience specializing in front-end development and team development. Currently working at Contractor Nation, where I help manage and maintain a portfolio of 500+ national lead-generating web properties. Expertise in modern JavaScript libraries/frameworks including React.js, Next.js, Vite, TypeScript. Backed with a strong foundation in HTML5, CSS3, and vanilla JS. Easily excited by UI/UX design and user experience. Always eager to learn and grow.
+              An accomplished Front-End Web Developer with over 10 years of experience specializing in front-end development and team leadership. In my current role, I oversee our team's junior developers while creating and maintaining a portfolio of 500+ national lead-generating web properties. I have expertise in modern JavaScript libraries and frameworks including React.js, Next.js, Vite, and TypeScript, all backed by a strong foundation in HTML5, CSS3, and vanilla JS. Having worked as a graphic designer in a previous life, I bring a strong eye for UI/UX design in my development work. I am easily excited by emerging technologies and always eager to learn and grow.
 
             </p>
           </div>
@@ -88,25 +88,11 @@ function App() {
               link="https://larry-janesky-site.vercel.app"
             />
             <ProjectCard
-              title="Task Management App"
-              description="Collaborative project management tool with real-time updates"
-              image="https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=800&q=80"
-              tags={['React', 'Firebase', 'Tailwind']}
-              link="https://github.com"
-            />
-            <ProjectCard
-              title="Weather Dashboard"
-              description="Real-time weather tracking with interactive maps"
-              image="https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&w=800&q=80"
-              tags={['React', 'APIs', 'Charts.js']}
-              link="https://github.com"
-            />
-            <ProjectCard
-              title="Portfolio Website"
-              description="Modern portfolio site built with React and Tailwind"
-              image="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
-              tags={['React', 'Tailwind', 'Vite']}
-              link="https://github.com"
+              title="Treehouse tools"
+              description="Docs application for web development team"
+              image="images/th-tools.jpg"
+              tags={['React', 'Next.js', 'TypeScript', 'MDX','Supabase', 'Tailwind']}
+              link="https://www.treehousetools.dev"
             />
           </div>
         </div>
