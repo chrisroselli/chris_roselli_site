@@ -41,7 +41,7 @@ function App() {
           </h2>
           <div className="bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm">
             <p className="text-lg text-gray-300 leading-relaxed">
-              An accomplished Front-End Web Developer with over 10 years of experience specializing in front-end development and team leadership. In my current role, I oversee our team's junior developers while creating and maintaining a portfolio of 500+ national lead-generating web properties. I have expertise in modern JavaScript libraries and frameworks including React.js, Next.js, Vite, and TypeScript, all backed by a strong foundation in HTML5, CSS3, and vanilla JS. Having worked as a graphic designer in a previous life, I bring a strong eye for UI/UX design in my development work. I am easily excited by emerging technologies and always eager to learn and grow.
+              I'm an accomplished Front-End Web Developer with over 10 years of experience specializing in front-end development and team leadership. In my current role, I oversee our team's junior developers while creating and maintaining a portfolio of 500+ national lead-generating web properties. I have expertise in modern JavaScript libraries and frameworks such as React, Next.js, Vue, Vite, and TypeScript. All built on a strong foundation in HTML, CSS, and vanilla JS. Having worked as a graphic designer in a previous life, I also bring a strong eye for UI/UX design to my development work. I am easily excitable by emerging technologies and always eager to learn and grow.
 
             </p>
           </div>
@@ -81,18 +81,25 @@ function App() {
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <ProjectCard
-              title="Larry Janesky"
-              description="Entrepreneurial business website"
+              title="Entrepreneurial business website"
+              description="Personal website for a business industry leader"
               image="images/lj-site.jpg"
               tags={['React', 'Next.js', 'TypeScript', 'Tailwind']}
               link="https://larry-janesky-site.vercel.app"
             />
             <ProjectCard
-              title="Treehouse tools"
-              description="Docs application for web development team"
+              title="Online docs system"
+              description="For a web development team to store and share docs online"
               image="images/th-tools.jpg"
               tags={['React', 'Next.js', 'TypeScript', 'MDX','Supabase', 'Tailwind']}
               link="https://www.treehousetools.dev"
+            />
+            <ProjectCard
+              title="Email Signature Generator"
+              description="For company employees to create a custom email signature"
+              image="images/sign-gen.jpg"
+              tags={['Vue', 'Bulma']}
+              link="https://chrisroselli.github.io/email-signature-generator"
             />
           </div>
         </div>
