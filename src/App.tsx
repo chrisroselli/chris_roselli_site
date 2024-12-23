@@ -80,7 +80,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-6">
             <ProjectCard
               title="Template Builder"
-              description="For company employees to quickly prototype website templates"
+              description="For a web development team to quickly prototype website templates"
               image="images/template-builder.jpg"
               tags={['React', 'Next.js', 'TypeScript', 'Tailwind']}
               link="https://template-builder-omega.vercel.app/"
