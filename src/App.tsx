@@ -22,9 +22,6 @@ function App() {
             <a href="https://www.linkedin.com/in/chris-roselli-webdev" className="hover:text-[#be1e2d] transition-colors" target="_blank">
               <Linkedin className="w-6 h-6" />
             </a>
-            <a href="mailto:chrisroselli@gmail.com" className="hover:text-[#be1e2d] transition-colors">
-              <Mail className="w-6 h-6" />
-            </a>
           </div>
         </div>
         <div className="absolute bottom-10 animate-bounce">
@@ -41,7 +38,7 @@ function App() {
           </h2>
           <div className="bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm an accomplished Front-End Web Developer with over 10 years of experience specializing in front-end development and team leadership. In my current role, I oversee our team's junior developers while creating and maintaining a portfolio of 500+ national lead-generating web properties. I have expertise in modern JavaScript libraries and frameworks such as React, Next.js, Vue, Vite, and TypeScript. All built on a strong foundation in HTML, CSS, and vanilla JS. Having worked as a graphic designer in a previous life, I also bring a strong eye for UI/UX design to my development work. I am easily excitable by emerging technologies and always eager to learn and grow.
+              I'm an accomplished Front-End Web Developer with over 10 years of experience specializing in front-end development and team leadership. In my current role, I oversee our team's junior developers while creating and maintaining a portfolio of 500+ national lead-generating web properties. I have expertise in modern JavaScript libraries and frameworks such as React, Next.js, Vue, Vite, and TypeScript. All being built on a strong foundation in HTML, CSS, and vanilla JS. Having worked as a graphic/web designer in a previous life, I also bring a strong eye for UI/UX design to my development work. I am easily excitable by emerging technologies and always eager to learn and grow.
 
             </p>
           </div>
@@ -68,6 +65,7 @@ function App() {
             <SkillBadge name="Neovim" level={60} />
             <SkillBadge name="UI/UX" level={75} />
             <SkillBadge name="Node.js" level={20} />
+            <SkillBadge name="SQL" level={30} />
           </div>
         </div>
       </section>
@@ -80,6 +78,13 @@ function App() {
             Featured Projects
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
+            <ProjectCard
+              title="Template Builder"
+              description="For company employees to quickly prototype website templates"
+              image="images/template-builder.jpg"
+              tags={['React', 'Next.js', 'TypeScript', 'Tailwind']}
+              link="https://template-builder-omega.vercel.app/"
+            />
             <ProjectCard
               title="Entrepreneurial business website"
               description="Personal website for a business industry leader"
