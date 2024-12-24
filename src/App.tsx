@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Code2, Palette, Rocket, ChevronDown } from 'lucide-react';
+import {Linkedin, Palette, Rocket, ChevronDown, UserRound, Github} from 'lucide-react';
 import ProjectCard from './components/ProjectCard';
 import SkillBadge from './components/SkillBadge';
 
@@ -33,7 +33,7 @@ function App() {
       <section className="py-20 px-4" id="about">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 flex items-center gap-2">
-            <Code2 className="w-8 h-8 text-[#be1e2d]" />
+            <UserRound className="w-8 h-8 text-[#be1e2d]" />
             About Me
           </h2>
           <div className="bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm">
@@ -82,7 +82,7 @@ function App() {
               title="Template Builder"
               description="For a web development team to quickly prototype website templates"
               image="images/template-builder.jpg"
-              tags={['React', 'Next.js', 'TypeScript', 'Tailwind']}
+              tags={['React', 'Next.js', 'TypeScript', 'Tailwind', 'PostgreSQL']}
               link="https://template-builder-omega.vercel.app/"
             />
             <ProjectCard
