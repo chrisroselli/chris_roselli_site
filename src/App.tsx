@@ -6,7 +6,8 @@ function App() {
   return (
     <div className="min-h-screen bg-neutral-900 text-white">
       {/* Hero Section */}
-      <header className="min-h-screen flex flex-col items-center justify-center relative px-4">
+      <div className="bg-[url('images/site-bg.jpg')] bg-cover lg:bg-contain bg-no-repeat w-full">
+      <header className="px-4 min-h-screen flex flex-col items-center justify-center relative">
         <div className="max-w-4xl mx-auto text-center">
           <img src="images/raven.svg" alt="Raven Logo" className="w-32 h-32 right-12 relative mx-auto animate-fade-in"/>
           <h1 className="text-5xl md:text-6xl font-heading text-white animate-fade-in">
@@ -44,7 +45,7 @@ function App() {
           </div>
         </div>
       </section>
-
+      </div>
       {/* Skills Section */}
       <section className="py-20 px-4 bg-gray-800/30">
         <div className="max-w-4xl mx-auto">
